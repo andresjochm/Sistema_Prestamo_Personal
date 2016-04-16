@@ -26,5 +26,11 @@ namespace SPP.Controllers
 
             return View();
         }
+
+        public ActionResult link()
+        {
+            return RedirectToAction("Index", "Dante");
+            
+        }
     }
 }
